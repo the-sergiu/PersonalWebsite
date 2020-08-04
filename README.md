@@ -75,9 +75,6 @@ Add additional notes about how to deploy this on a live system.-->
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
-## ✍️ Authors <a name = "authors"></a>
-- [@RusuGabriel](https://github.com/RusuGabriel) - Idea & Implementation
-
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - Hat tip to anyone whose code was used
 - Inspiration
