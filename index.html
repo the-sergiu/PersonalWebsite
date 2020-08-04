@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-170853340-1"
+    ></script> -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-170853340-1");
+    </script>
+
+    <title>Personal Webpage</title>
+    <script src="./src/utils.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/images/logo.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:200,100,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body class="background">
+    <div id="content" class="hidden">
+      <div class="nav-bar">
+        <ul>
+          <li onclick="goTo('Experience')">Experience</li>
+          <li>|</li>
+          <li onclick="goTo('Education')">Education</li>
+          <li>|</li>
+          <li onclick="goTo('Projects')">Projects</li>
+        </ul>
+      </div>
+      <div class="centered">
+        <h1 class="header-text">Sergiu Craioveanu</h1>
+        <div class="normal-text">
+          <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "Software Engineer", "System Engineering student", "Undergraduate Teaching Assistant", "Open Source Enthusiast" ]'
+            align="center"
+          ></span>
+        </div>
+        <div id="social-media">
+          <a href="https://www.facebook.com/gabriel.rusu.10485"
+            ><img
+              src="assets/images/facebook_white.png"
+              width="40"
+              height="40"
+              color="white"
+          /></a>
+          <a href="https://github.com/RusuGabriel"
+            ><img
+              src="assets/images/github_white.png"
+              width="40"
+              height="40"
+              color="white"
+          /></a>
+          <a href="https://www.linkedin.com/in/grusu13"
+            ><img
+              src="assets/images/linkedin_white.png"
+              width="32"
+              height="32"
+              color="white"
+              style="padding-left: 5px;"
+          /></a>
+        </div>
+        <p align="center" class="text" id="time"></p>
+      </div>
+    </div>
+    <div id="loading-wrapper" class="loading">
+      <div class="obj"></div>
+      <div class="obj"></div>
+      <div class="obj"></div>
+      <div class="obj"></div>
+      <div class="obj"></div>
+      <div class="obj"></div>
+      <div class="obj"></div>
+      <div class="obj"></div>
+    </div>
+  </body>
+</html>
